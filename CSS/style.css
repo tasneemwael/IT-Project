@@ -1,0 +1,99 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#section1,
+#section3,
+#section4 {
+
+    flex-direction: column;
+
+}
+
+#section2 {
+    flex-direction: row;
+}
+
+.section img {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.section video {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section {
+    /* Existing styles for .section */
+    text-align: center;
+    /* Center align the content */
+}
+
+.telephone {
+    cursor: pointer;
+    /* Change cursor to pointer when hovering over the telephone number */
+    font-size: 18px;
+    /* Increase font size for better visibility */
+}
+
+.social-media-icons {
+    margin-top: 20px;
+    /* Add some space between the telephone number and social media icons */
+}
+
+.social-media-icons a {
+    display: inline-block;
+    /* Make the links inline-block for better alignment */
+    margin: 0 10px;
+    /* Add some space between social media icons */
+}
+
+.social-media-icons img {
+    width: 40px;
+    /* Set the width of the social media icons */
+    height: 40px;
+    /* Set the height of the social media icons */
+    border-radius: 50%;
+    /* Make the icons circular */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.social-media-icons img:hover {
+    transform: scale(1.2);
+    /* Scale up the icon size on hover */
+}
